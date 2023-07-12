@@ -1,0 +1,31 @@
+.containerNotFound {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.NotFoundTitle {
+   font-weight: 700;
+   font-size: 288px;
+}
+.NotFoundDescription {
+   margin-bottom: 100px;
+   font-weight: 500;
+   font-size: 36px;
+   text-align: center;
+}
+.NotFoundlink {
+   text-decoration: underline;
+}
+
+@media screen and (max-width: 850px) {
+   .NotFoundTitle {
+      font-size: 96px;
+   }
+   .NotFoundDescription {
+      font-size: 18px;
+   }
+   .NotFoundlink {
+      font-size: 14px;
+   }
+}

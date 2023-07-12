@@ -1,0 +1,81 @@
+@import "./normalize.css";
+@import "./home.css";
+@import "./about.css";
+@import "./card.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./accordeon.css";
+@import "./housing.css";
+@import "./carrousel.css";
+@import "./404Page.css";
+@import "./rating.css";
+@import "./profile.css";
+
+html,
+body {
+   height: 100%;
+   font-family: "Montserrat";
+   margin: auto;
+}
+main {
+   padding: 0 50px;
+}
+
+#root {
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+
+main {
+   flex-grow: 1;
+}
+
+h1 {
+   font-size: 48px;
+   color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+   font-weight: 500;
+   color: #ffffff;
+}
+h2,
+h6,
+h5 {
+   margin-top: 10px;
+   color: #ff6060;
+}
+
+h3 {
+   font-size: 23px;
+}
+p,
+ul {
+   margin: 0;
+   padding: 20px 10px 10px 10px;
+   color: #ff6060;
+}
+
+li {
+   margin: 5px 0;
+}
+
+img {
+   user-select: none;
+}
+
+@media screen and (max-width: 850px) {
+   main {
+      padding: 0 20px;
+   }
+   h1 {
+      font-size: 20px;
+   }
+}

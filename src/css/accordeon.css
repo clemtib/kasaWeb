@@ -1,0 +1,27 @@
+.accordeon-expanded {
+   margin: 30px 0;
+   background-color: #f6f6f6;
+   border-radius: 5px;
+}
+
+.accordeon-item {
+   height: 47px;
+   border-radius: 5px;
+   padding: 0 20px;
+   background-color: #ff6060;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   cursor: pointer;
+}
+
+.containerExpanded {
+   line-height: 25px;
+}
+
+@media screen and (max-width: 850px) {
+   .accordeon-expanded {
+      margin: 20px 0;
+   }
+}

@@ -1,0 +1,21 @@
+.stars {
+   margin-top: 15px;
+}
+
+.on,
+.off {
+   margin: 0 5px;
+}
+.stars .off {
+   color: #e3e3e3;
+}
+
+.stars .on {
+   color: #ff6060;
+}
+
+@media screen and (max-width: 850px) {
+   .stars {
+      margin-top: 0;
+   }
+}

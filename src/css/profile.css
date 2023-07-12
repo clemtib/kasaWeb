@@ -1,0 +1,19 @@
+.profile-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.img-profile img {
+   margin-left: 20px;
+   width: 64px;
+   height: 64px;
+   border-radius: 32px;
+}
+.name {
+   margin: 0;
+   font-size: 18px;
+   font-weight: 500;
+   text-align: end;
+}
